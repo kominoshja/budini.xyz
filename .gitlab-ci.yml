@@ -4,6 +4,7 @@ variables:
   JEKYLL_ENV: production
 
 before_script:
+- bundle install
 - mkdir events projects tech thoughts
 - mv pages/events.html events/index.html
 - mv pages/projects.html projects/index.html
@@ -19,7 +20,6 @@ before_script:
 - cp -R _projects/ _posts
 - cp -R _thoughts/ _posts
 - rm -rf pages blogposts 
-- bundle install
 
 pages:
   stage: deploy
