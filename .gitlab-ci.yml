@@ -9,11 +9,11 @@ before_script:
 - mv pages/projects.html projects/index.html
 - mv pages/tech.html tech/index.html
 - mv pages/thoughts.html thoughts/index.html
-- mkdir _events  _projects  _tech  _thoughts
-- cp -R blogposts/events/ _events 
-- cp -R blogposts/projects/ _projects 
-- cp -R blogposts/tech/ _tech 
-- cp -R blogposts/thoughts/ _thoughts
+#- mkdir _events  _projects  _tech  _thoughts
+#- cp -R blogposts/events/ _events 
+#- cp -R blogposts/projects/ _projects 
+#- cp -R blogposts/tech/ _tech 
+#- cp -R blogposts/thoughts/ _thoughts
 - cp -R _tech/ _posts
 - cp -R _events/ _posts
 - cp -R _projects/ _posts
