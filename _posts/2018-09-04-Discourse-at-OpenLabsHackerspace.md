@@ -14,8 +14,7 @@ We didn't like this, but back then we had no option.
 
 Then, an awesome company named DigitalOcean sponsored Open Labs Hackerspace.
 If you know me, you know what that means. 
-<center><iframe src="https://giphy.com/embed/128kpIwiArqvUk" width="480" height="286" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
-
+<iframe src="https://giphy.com/embed/128kpIwiArqvUk" width="480" height="286" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 The most important part of infra we needed, was a mailing list which was open source, and user friendly.
 
 This is where Discourse came into play.
