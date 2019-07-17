@@ -11,7 +11,10 @@ before_script:
 - mv pages/tech.html tech/index.html
 - mv pages/thoughts.html thoughts/index.html
 - rm -rf pages
-
+- cp -R _tech/ _posts
+- cp -R _events/ _posts
+- cp -R _projects/ _posts
+- cp -R _thoughts/ _posts
 pages:
   stage: deploy
   script:
