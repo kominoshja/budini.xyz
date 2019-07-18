@@ -5,7 +5,7 @@ date: 2018-08-26 00:00:00
 featured_image: '/images/Sidebar/Tech/router.jpg'
 ---
 
-So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network)
+So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices
 
 That means that I neesded to edit the DNS record directly from my router. Easy peasy...Right?
 
