@@ -31,13 +31,15 @@ DNS serves as the roads, deciding where the cars go. Whenever you visit my websi
 
 Now, let's dig into the story.
 
+
 So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network ._.)
 That means that I needed to edit the DNS record directly from my router.
 Easy peasy...Right?
 My ISP is [ALBtelecom](https://www.albtelecom.al), and while they do have a good service, their routers aren't the best out there. I have the [HG531 V1](https://consumer.huawei.com/eg-en/support/smart-home/hg531-v1-10/). This guy is good enough for my devices, so I like it
 Now, it's no secret that every ISP provides their DNS, and I get that.
 The problem arose when I wanted to change it.
-ALBtelecom told me my router credentials were `admin`, `U5er!us3r!`.
+ALBtelecom told me my router credentials were
+<br /> * `admin`<br /> * `U5er!us3r!`<br />
 So I log in and I see only these panels.
 
 <div class="gallery" data-columns="2">
@@ -70,7 +72,8 @@ So I logged in, and there it was. **Full access to the router that I payed for, 
 
 {% twitter https://twitter.com/kominoshja/status/1028949947251609600 %}
 
-In case you just want to get the account details, here they are: `root`, `@csC0nf1g.`
+In case you just want to get the account details, here they are:
+<br />* `root` <br />* `@csC0nf1g.` <br />
 In case you want to know why I made such a big deal is out of this, keep reading.
 
 By locking our access in our routers, ALBtelecom is taking away a part of our freedom!
