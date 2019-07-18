@@ -5,12 +5,14 @@ date: 2018-08-26 00:00:00
 featured_image: '/images/Sidebar/Tech/router.jpg'
 ---
 
-So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network ._.)
-That means that I needed to edit the DNS record directly from my router.
-Easy peasy...Right?
-My ISP is [ALBtelecom](https://www.albtelecom.al), and while they do have a good service, their routers aren't the best out there. I have the [HG531 V1](https://consumer.huawei.com/eg-en/support/smart-home/hg531-v1-10/). This guy is good enough for my devices, so I like it
+So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network :neutral_face: )
+
+That means that I needed to edit the DNS record directly from my router. Easy peasy...Right?
+
+My ISP is [ALBtelecom](https://www.albtelecom.al), and while they do have a good service, their routers aren't the best out there. I have the [HG531 V1](https://consumer.huawei.com/eg-en/support/smart-home/hg531-v1-10/). This guy is good enough for my devices, so I like it.
 Now, it's no secret that every ISP provides their DNS, and I get that.
 The problem arose when I wanted to change it.
+
 ALBtelecom told me my router credentials were
 <br /> * `admin`<br /> * `U5er!us3r!`<br />
 So I log in and I see only these panels.
@@ -22,7 +24,7 @@ So I log in and I see only these panels.
 
 "Where's all the other options?" - I wondered
 {% twitter https://twitter.com/kominoshja/status/1028427917792096257 %}
-So i got angry and decided to get on the case.
+So I got angry and decided to get on the case.
 
 
 I tried many things, from trying to get access from any port, to all the possible hardware button press combos, opening the router itself, but nothing worked. So I decided to get the firmware file online, unpack it, and work backwards from there to see if they changed the firmware upgrade URL (I initially thought they wrote a custom firmware). That didn't work either.
@@ -52,8 +54,7 @@ In case you want to know why I made such a big deal is out of this, keep reading
 By locking our access in our routers, ALBtelecom is taking away a part of our freedom!
 Yes, really.
 
-When you can't change the DNS records, ALBtelecom WILL KNOW WHAT SITE YOU VISIT, even if you're using VPN. [Unless you took protection against DNS leak, or changed the DNS settings for your device(Yeah, sure, you can change the DNS records on every device you have, or you can do it the sane way)]
-The other problem I have with this  is that, I payed for the router. I bought it! Therefore, you have no right to lock me access.
+When you can't change the DNS records, ALBtelecom will know what site you're visiting, even if you're using VPN. [Unless you took protection against DNS leak, or changed the DNS settings for your device (Yeah, sure, you can change the DNS records on every device you have, or you can do it the sane way)]
 
 {% twitter https://twitter.com/kominoshja/status/1029015232801398784 %}
 
