@@ -1,5 +1,5 @@
 ---
-title:  "The case against my shitty router"
+title:  "The case against my router"
 subtitle: "ALBtelecom's HG531 v1"
 date: 2018-08-26 00:00:00
 featured_image: '/images/Sidebar/Tech/router.jpg'
