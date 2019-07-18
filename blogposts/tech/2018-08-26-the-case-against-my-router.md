@@ -4,7 +4,7 @@ subtitle: "ALBtelecom's HG531 v1"
 date: 2018-08-26 00:00:00
 featured_image: '/images/Sidebar/Tech/router.jpg'
 ---
-So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices
+So recently I installed Pi-hole, and was too lazy to manually edit the DNS record in all of my devices
 
 That means that I needed to edit the DNS record directly from my router. Easy peasy...Right?
 
