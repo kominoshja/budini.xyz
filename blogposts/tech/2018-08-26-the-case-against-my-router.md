@@ -14,7 +14,9 @@ Now, it's no secret that every ISP provides their DNS, and I get that.
 The problem arose when I wanted to change it.
 
 ALBtelecom told me my router credentials were
-<br /> * `admin`<br /> * `U5er!us3r!`<br />
+* `admin`
+* `U5er!us3r!`
+
 So I log in and I see only these panels.
 
 <div class="gallery" data-columns="2">
@@ -23,7 +25,9 @@ So I log in and I see only these panels.
 </div>
 
 "Where's all the other options?" - I wondered
+
 {% twitter https://twitter.com/kominoshja/status/1028427917792096257 %}
+
 So I got angry and decided to get on the case.
 
 
@@ -48,7 +52,9 @@ So I logged in, and there it was. **Full access to the router that I payed for, 
 {% twitter https://twitter.com/kominoshja/status/1028949947251609600 %}
 
 In case you just want to get the account details, here they are:
-<br />* `root` <br />* `@csC0nf1g.` <br />
+* `root`
+* `@csC0nf1g.`
+
 In case you want to know why I made such a big deal is out of this, keep reading.
 
 By locking our access in our routers, ALBtelecom is taking away a part of our freedom!
