@@ -5,33 +5,6 @@ date: 2018-08-26 00:00:00
 featured_image: '/images/Sidebar/Tech/router.jpg'
 ---
 
-Before you read the story, let's cover some bases on understanding why this matters.
-
-------
-
- - Router:
-
-```
-A router is a networking device that forwards data packets between computer networks. - Wikipedia
-```
-
-This means your router is like the traffic police, dictating the flow of the internet in your house.
-
-------
-
- - DNS - Domain Name System:
-
-```
- The Domain Name System is a hierarchical decentralized naming system for computers connected to the Internet. - Wikipedia
-```
-
-DNS serves as the roads, deciding where the cars go. Whenever you visit my website for example, you actually visit  `206.189.248.153`. But you won't remember that, will you? (Even I don't)
-
-------
-
-Now, let's dig into the story.
-
-
 So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network ._.)
 That means that I needed to edit the DNS record directly from my router.
 Easy peasy...Right?
