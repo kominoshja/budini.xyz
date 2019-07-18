@@ -5,7 +5,8 @@ date: 2018-08-26 00:00:00
 featured_image: '/images/Sidebar/Tech/router.jpg'
 ---
 
-So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network :neutral_face: )
+So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network)
+
 
 That means that I needed to edit the DNS record directly from my router. Easy peasy...Right?
 
@@ -23,7 +24,7 @@ So I log in and I see only these panels.
 </div>
 
 "Where's all the other options?" - I wondered
-{% twitter https://twitter.com/kominoshja/status/1028427917792096257 %}
+{% twitter https://twitter.com/kominoshja/status/1028427917792096257 maxwidth=500 %}
 So I got angry and decided to get on the case.
 
 
@@ -56,7 +57,7 @@ Yes, really.
 
 When you can't change the DNS records, ALBtelecom will know what site you're visiting, even if you're using VPN. [Unless you took protection against DNS leak, or changed the DNS settings for your device (Yeah, sure, you can change the DNS records on every device you have, or you can do it the sane way)]
 
-{% twitter https://twitter.com/kominoshja/status/1029015232801398784 %}
+{% twitter https://twitter.com/kominoshja/status/1029015232801398784 maxwidth=500 %}
 
 
 The HG531 V1 router is actually very nice, for 15-20 devices connected to it, and it rarely has failed for me. However there's no info regarding it online.
