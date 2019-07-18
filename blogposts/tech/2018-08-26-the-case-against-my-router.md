@@ -23,7 +23,7 @@ So I log in and I see only these panels.
 </div>
 
 "Where's all the other options?" - I wondered
-{% twitter https://twitter.com/kominoshja/status/1028427917792096257 maxwidth=500 %}
+<center>{% twitter https://twitter.com/kominoshja/status/1028427917792096257 maxwidth=500 %}</center>
 So I got angry and decided to get on the case.
 
 
@@ -45,7 +45,7 @@ So I logged in, and there it was. **Full access to the router that I payed for, 
 	<img src="/images/Tech/router/root2.png">
 </div>
 
-{% twitter https://twitter.com/kominoshja/status/1028949947251609600 %}
+<center>{% twitter https://twitter.com/kominoshja/status/1028949947251609600 %}</center>
 
 In case you just want to get the account details, here they are:
 <br />`root`<br />`@csC0nf1g.`<br />
@@ -56,7 +56,7 @@ Yes, really.
 
 When you can't change the DNS records, ALBtelecom will know what site you're visiting, even if you're using VPN. [Unless you took protection against DNS leak, or changed the DNS settings for your device (Yeah, sure, you can change the DNS records on every device you have, or you can do it the sane way)]
 
-{% twitter https://twitter.com/kominoshja/status/1029015232801398784 maxwidth=500 %}
+<center>{% twitter https://twitter.com/kominoshja/status/1029015232801398784 maxwidth=500 %}</center>
 
 The HG531 V1 router is actually very nice, for 15-20 devices connected to it, and it rarely has failed for me. However there's no info regarding it online.
 
