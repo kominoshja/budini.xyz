@@ -14,7 +14,7 @@ Now, it's no secret that every ISP provides their DNS, and I get that.
 The problem arose when I wanted to change it.
 
 ALBtelecom told me my router credentials were
-<br /> * `admin`<br /> * `U5er!us3r!`<br />
+<br />`admin`<br />`U5er!us3r!`<br />
 So I log in and I see only these panels.
 
 <div class="gallery" data-columns="2">
@@ -48,7 +48,7 @@ So I logged in, and there it was. **Full access to the router that I payed for, 
 {% twitter https://twitter.com/kominoshja/status/1028949947251609600 %}
 
 In case you just want to get the account details, here they are:
-<br />* `root` <br />* `@csC0nf1g.` <br />
+<br />`root`<br />`@csC0nf1g.`<br />
 In case you want to know why I made such a big deal is out of this, keep reading.
 
 By locking our access in our routers, ALBtelecom is taking away a part of our freedom!
@@ -58,6 +58,6 @@ When you can't change the DNS records, ALBtelecom will know what site you're vis
 
 {% twitter https://twitter.com/kominoshja/status/1029015232801398784 maxwidth=500 %}
 
-
 The HG531 V1 router is actually very nice, for 15-20 devices connected to it, and it rarely has failed for me. However there's no info regarding it online.
+
 So, [here](https://github.com/kominoshja/budini.xyz/tree/master/assets/hg531-fimwares), you'll find all the firmware I was able to get for it. Use them wisely! :)
