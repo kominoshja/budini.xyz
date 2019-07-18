@@ -1,5 +1,5 @@
 ---
-title:  "The case against my router."
+title:  "The case against my shitty router"
 subtitle: "ALBtelecom's HG531 v1"
 date: 2018-08-26 00:00:00
 featured_image: '/images/Sidebar/Tech/router.jpg'
@@ -33,7 +33,7 @@ Now, let's dig into the story.
 
 So recently I installed [Pi-hole](https://pi-hole.net/), and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network ._.)
 That means that I needed to edit the DNS record directly from my router.
-Easy peasy...Right? 
+Easy peasy...Right?
 My ISP is [ALBtelecom](https://www.albtelecom.al), and while they do have a good service, their routers aren't the best out there. I have the [HG531 V1](https://consumer.huawei.com/eg-en/support/smart-home/hg531-v1-10/). This guy is good enough for my devices, so I like it
 Now, it's no secret that every ISP provides their DNS, and I get that.
 The problem arose when I wanted to change it.
@@ -82,6 +82,5 @@ The other problem I have with this  is that, I payed for the router. I bought it
 {% twitter https://twitter.com/kominoshja/status/1029015232801398784 %}
 
 
-The HG531 V1 router is actually very nice, for 15-20 devices connected to it, and it rarely has failed for me. However there's no info regarding it online. 
+The HG531 V1 router is actually very nice, for 15-20 devices connected to it, and it rarely has failed for me. However there's no info regarding it online.
 So, [here](https://github.com/kominoshja/budini.xyz/tree/master/assets/hg531-fimwares), you'll find all the firmware I was able to get for it. Use them wisely! :)
-
