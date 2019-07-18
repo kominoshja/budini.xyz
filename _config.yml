@@ -79,6 +79,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-twitter-plugin
-
+  - jemoji
 paginate: 6
 paginate_path: "/blog/page:num/"
