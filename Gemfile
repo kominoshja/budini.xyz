@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-twitter-plugin'
   gem 'jemoji'
   gem 'jekyll-include-cache'
+  gem 'jekyll-seo-tag'
 end
