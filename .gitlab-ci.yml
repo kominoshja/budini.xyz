@@ -1,6 +1,6 @@
 variables:
   JEKYLL_ENV: production
-  
+
 stages:
   - build
   - deploy
@@ -16,8 +16,10 @@ compress_images:
   artifacts:
     paths:
     - .
+    expire_in: 5 mins
 
-  
+
+
 pages:
   stage: deploy
   image: ruby:2.3
@@ -27,15 +29,15 @@ pages:
   - mv pages/projects.html projects/index.html
   - mv pages/tech.html tech/index.html
   - mv pages/thoughts.html thoughts/index.html
-  - mv blogposts/events/ _events/ 
-  - mv blogposts/projects/ _projects 
-  - mv blogposts/tech/ _tech 
+  - mv blogposts/events/ _events/
+  - mv blogposts/projects/ _projects
+  - mv blogposts/tech/ _tech
   - mv blogposts/thoughts/ _thoughts
   - cp -R _tech/ _posts
   - cp -R _events/ _posts
   - cp -R _projects/ _posts
   - cp -R _thoughts/ _posts
-  - rm -rf pages blogposts 
+  - rm -rf pages blogposts
   - bundle install
   - bundle exec jekyll build -d public
   dependencies:
@@ -46,4 +48,3 @@ pages:
     - public
   only:
   - master
-
