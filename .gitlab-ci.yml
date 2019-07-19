@@ -1,30 +1,46 @@
-image: ruby:2.3
-
 variables:
   JEKYLL_ENV: production
+  
+stages:
+  - build
+  - deploy
 
-before_script:
-- mkdir events projects tech thoughts
-- mv pages/events.html events/index.html
-- mv pages/projects.html projects/index.html
-- mv pages/tech.html tech/index.html
-- mv pages/thoughts.html thoughts/index.html
-- mv blogposts/events/ _events/ 
-- mv blogposts/projects/ _projects 
-- mv blogposts/tech/ _tech 
-- mv blogposts/thoughts/ _thoughts
-- cp -R _tech/ _posts
-- cp -R _events/ _posts
-- cp -R _projects/ _posts
-- cp -R _thoughts/ _posts
-- rm -rf pages blogposts 
+compress_images:
+  stage: build
+  image: alpine:latest
+  script:
+  - apk --no-cache add jpegoptim optipng
+  - find . -iname '*.jpg' -print0 | xargs -0 jpegoptim --max=90 --preserve --totals
+  - find . -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
+  - rm -rf .git
+  artifacts:
+    paths:
+    - .
 
-- bundle install
-
+  
 pages:
   stage: deploy
+  image: ruby:2.3
   script:
+  - mkdir events projects tech thoughts
+  - mv pages/events.html events/index.html
+  - mv pages/projects.html projects/index.html
+  - mv pages/tech.html tech/index.html
+  - mv pages/thoughts.html thoughts/index.html
+  - mv blogposts/events/ _events/ 
+  - mv blogposts/projects/ _projects 
+  - mv blogposts/tech/ _tech 
+  - mv blogposts/thoughts/ _thoughts
+  - cp -R _tech/ _posts
+  - cp -R _events/ _posts
+  - cp -R _projects/ _posts
+  - cp -R _thoughts/ _posts
+  - rm -rf pages blogposts 
+  - bundle install
   - bundle exec jekyll build -d public
+  dependencies:
+    - compress_images
+
   artifacts:
     paths:
     - public
