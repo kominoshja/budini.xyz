@@ -1,6 +1,15 @@
 title: Boris Budini
+description: A website where I post my projects
 url: https://boris.budini.xyz
 site: Kominoshja's Mindscape
+twitter:
+  username: Kominoshja
+social:
+  name: Boris Budini
+- https://twitter.com/kominoshja
+- https://github.com/kominoshja
+- https://www.instagram.com/kominoshja
+- https://t.me/kominoshja
 
 collections:
   pages:
