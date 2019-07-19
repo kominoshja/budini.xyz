@@ -5,13 +5,16 @@ stages:
   - build
   - deploy
 
-pages:
+  compress
   stage: build
   image: alpine:latest
   script:
   - apk --no-cache add jpegoptim optipng
   - find . -iname '*.jpg' -print0 | xargs -0 jpegoptim --max=90 --preserve --totals
   - find . -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
+  
+  
+  pages:
   stage: deploy
   image: ruby:2.3
   script:
