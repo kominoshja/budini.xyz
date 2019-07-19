@@ -5,15 +5,15 @@ date: 2018-09-04 00:00:00
 featured_image: '/images/Sidebar/Tech/discourse.jpg'
 ---
 
-On 5th of March 2016, I installed Discourse on [forum.openlabs.cc](forum.openlabs.cc)
+On 5th of March 2016, I installed Discourse on [forum.openlabs.cc](https://forum.openlabs.cc)
 
 I love this software so much, I decided to write a blog post on how awesome it is and how much it helped Open Labs Hackerspace
 ## History
-Open Labs Hackerspace is non for profit, and when we were struggling for sponsorships, we used to use Google Groups as a mailing list. 
+Open Labs Hackerspace is non for profit, and when we were struggling for sponsorships, we used to use Google Groups as a mailing list.
 We didn't like this, but back then we had no option.
 
 Then, an awesome company named DigitalOcean sponsored Open Labs Hackerspace.
-If you know me, you know what that means. 
+If you know me, you know what that means.
 <center><iframe src="https://giphy.com/embed/128kpIwiArqvUk" width="480" height="286" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
 
 The most important part of infra we needed, was a mailing list which was open source, and user friendly.
@@ -39,15 +39,14 @@ Well, from the start, we have had
 
 We consider that insane!
 
-## Cool tricks 
+## Cool tricks
 Discourse is both a forum, and a mailing list. And it does a great job of it.
 
 We have a [Telegram bot](https://github.com/davidtaylorhq/discourse-telegram-notifications), which when linked with your account, it sends your Discourse notifications to Telegram
 By using this [plugin](https://github.com/fuerst/embed-etherpad-lite) we can embed our etherpad.
 We disabled comments on [openlabs.cc](openlabs.cc), and started using [wp-discourse](https://github.com/discourse/wp-discourse) to post our blog posts on the forum, and use replies as comments.
 The badges offer a nice way for users to "compete" which eachother on a friendly way
-## Closing Thoughts 
+## Closing Thoughts
 Discourse has definitively helped Open Labs Hackerspace better communicate, organize, and share.
 It is now part of our core Infra, and it is my favorite software!
 I would highly recommend it to any open source community which values beautiful, feature rich & secure mailing lists
-
