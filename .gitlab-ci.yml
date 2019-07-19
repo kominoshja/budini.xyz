@@ -5,13 +5,14 @@ stages:
   - build
   - deploy
 
-compress:
+compress_images:
   stage: build
   image: alpine:latest
   script:
   - apk --no-cache add jpegoptim optipng
   - find . -iname '*.jpg' -print0 | xargs -0 jpegoptim --max=90 --preserve --totals
   - find . -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
+  - rm -rf .git
   artifacts:
     paths:
     - .
@@ -37,6 +38,9 @@ pages:
   - rm -rf pages blogposts 
   - bundle install
   - bundle exec jekyll build -d public
+  dependencies:
+    - compress_images
+
   artifacts:
     paths:
     - public
