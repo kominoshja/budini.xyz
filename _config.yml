@@ -6,10 +6,11 @@ twitter:
   username: Kominoshja
 social:
   name: Boris Budini
-- https://twitter.com/kominoshja
-- https://github.com/kominoshja
-- https://www.instagram.com/kominoshja
-- https://t.me/kominoshja
+  links:
+    - https://twitter.com/kominoshja
+    - https://github.com/kominoshja
+    - https://www.instagram.com/kominoshja
+    - https://t.me/kominoshja
 
 collections:
   pages:
