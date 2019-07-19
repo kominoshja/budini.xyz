@@ -5,20 +5,13 @@ stages:
   - build
   - deploy
 
-compress_images:
+pages:
   stage: build
   image: alpine:latest
   script:
   - apk --no-cache add jpegoptim optipng
-  - mkdir .public
-  - cp -r * .public
-  - mv .public public
-  - find public/ -iname '*.jpg' -print0 | xargs -0 jpegoptim --max=90 --preserve --totals
-  - find public/ -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
-  artifacts:
-    paths:
-    - public
-pages:
+  - find . -iname '*.jpg' -print0 | xargs -0 jpegoptim --max=90 --preserve --totals
+  - find . -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
   stage: deploy
   image: ruby:2.3
   script:
