@@ -22,7 +22,10 @@ pages:
   - bundle install
   - bundle exec jekyll build -d public
   - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
+  #to be fixed
   - sed -i '0,/\/images\/Sidebar\/Tech\/router.jpg/{s/\/images\/Sidebar\/Tech\/router.jpg/\/images\/Sidebar\/index.jpg/}' public/index.html
+  - sed -i '0,/\/images\/Sidebar\/Tech\/router.jpg/{s/\/images\/Sidebar\/Tech\/router.jpg/\/images\/Sidebar\/404.jpg/}' public/404.html
+
   artifacts:
     paths:
     - public
