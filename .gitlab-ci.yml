@@ -25,6 +25,9 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
+  - apk --no-cache add jpegoptim optipng 
+  - find public/ -iname '*.jpg' -print0 | xargs -0 jpegoptim --max=90 --preserve --totals
+  - find public/ -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
   artifacts:
     paths:
     - public
