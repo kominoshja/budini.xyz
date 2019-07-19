@@ -1,25 +1,6 @@
 variables:
   JEKYLL_ENV: production
 
-stages:
-  - build
-  - deploy
-
-compress_images:
-  stage: build
-  image: alpine:latest
-  script:
-  - apk --no-cache add jpegoptim optipng
-  - find . -iname '*.jpg' -print0 | xargs -0 jpegoptim --max=90 --preserve --totals
-  - find . -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
-  - rm -rf .git
-  artifacts:
-    paths:
-    - .
-    expire_in: 5 mins
-
-
-
 pages:
   stage: deploy
   image: ruby:2.3
@@ -41,9 +22,6 @@ pages:
   - bundle install
   - bundle exec jekyll build -d public
   - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
-
-  dependencies:
-    - compress_images
 
   artifacts:
     paths:
