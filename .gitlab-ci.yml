@@ -40,6 +40,8 @@ pages:
   - rm -rf pages blogposts
   - bundle install
   - bundle exec jekyll build -d public
+  - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
+
   dependencies:
     - compress_images
 
