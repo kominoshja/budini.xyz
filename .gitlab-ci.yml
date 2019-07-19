@@ -1,9 +1,10 @@
-image: ruby:2.3
+image: alpine:latest
 
 variables:
   JEKYLL_ENV: production
 
 before_script:
+- apk --no-cache add jpegoptim optipng ruby-bundler
 - mkdir events projects tech thoughts
 - mv pages/events.html events/index.html
 - mv pages/projects.html projects/index.html
@@ -25,7 +26,6 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
-  - apk --no-cache add jpegoptim optipng 
   - find public/ -iname '*.jpg' -print0 | xargs -0 jpegoptim --max=90 --preserve --totals
   - find public/ -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
   artifacts:
