@@ -5,7 +5,7 @@ stages:
   - build
   - deploy
 
-  compress
+  compress:
   stage: build
   image: alpine:latest
   script:
