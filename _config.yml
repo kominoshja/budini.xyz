@@ -80,7 +80,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-twitter-plugin
   - jemoji
   - jekyll-include-cache
 paginate: 6
