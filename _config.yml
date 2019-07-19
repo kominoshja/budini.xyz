@@ -81,5 +81,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
   - jekyll-include-cache
+  - jekyll-minifier
 paginate: 6
 paginate_path: "/blog/page:num/"
