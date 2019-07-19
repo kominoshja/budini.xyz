@@ -5,7 +5,7 @@ stages:
   - build
   - deploy
 
-  compress:
+compress:
   stage: build
   image: alpine:latest
   script:
@@ -14,7 +14,7 @@ stages:
   - find . -iname '*.png' -print0 | xargs -0 optipng -o7 -preserve
   
   
-  pages:
+pages:
   stage: deploy
   image: ruby:2.3
   script:
