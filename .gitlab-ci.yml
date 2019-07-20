@@ -19,6 +19,7 @@ pages:
   - cp -R _projects/ _posts
   - cp -R _thoughts/ _posts
   - rm -rf pages blogposts
+  - npm install simple-jekyll-search
   - bundle install
   - bundle exec jekyll build -d public
   - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
