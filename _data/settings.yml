@@ -29,6 +29,7 @@ grid_settings:
 social_settings:
   twitter_url: 'https://twitter.com/kominoshja'
   github_url: 'https://github.com/kominoshja/'
+  gitlab_url: 'https://git.budini.xyz/public'
   instagram_url: 'https://www.instagram.com/kominoshja/'
   snapchat_url: ''
   youtube_url: ''
