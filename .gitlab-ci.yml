@@ -3,7 +3,7 @@ variables:
 
 pages:
   stage: deploy
-  image: ruby:2.3
+  image: starefossen/ruby-node:latest
   script:
   - mkdir events projects tech thoughts
   - mv pages/events.html events/index.html
