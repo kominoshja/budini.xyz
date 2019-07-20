@@ -5,11 +5,11 @@ date: 2018-08-27 00:00:00
 featured_image: '/images/Sidebar/Tech/server.jpg'
 ---
 
-A few months ago, I was asked to find a way of automating one of Ura's production servers, to automatically get the code from GitHub, compile it, and then serve it. We were using Jekyll, so it was pretty easy to be solved.. except for the automatic pull. I ended up using a php script + webhooks. 
+A few months ago, I was asked to find a way of automating one of Ura's production servers, to automatically get the code from GitHub, compile it, and then serve it. We were using Jekyll, so it was pretty easy to be solved.. except for the automatic pull. I ended up using a php script + webhooks.
 
 So, first things firsts
 
-### What is a webhook? 
+### What is a webhook?
 A webhook is a pretty cool method of communication between servers.
 Think of it this way.
 We have server A and server B. Whenever server A finishes a task, server B needs to be informed. This is where webhooks come in.
@@ -18,7 +18,7 @@ Webhook is kind of like a message!
 
 ### What programming language did you use?
 
-I ended up using PHP. 
+I ended up using PHP.
 
 ## So, how did I do it?
 
@@ -62,11 +62,9 @@ My apache site config file looks like this
 ```
 So on the appropriate repo on GitHub, i set a `JSON` webhook `On push events`, with the url `[URL]/script`
 ## Okay, but why?
-This kind of automation allows us to do many fun stuff. 
-Back in March, it was impossible to have custom domains on GitHub pages WITH SSL. Our develpers didn't have access to servers, so this helped us to have https://ura.design, https://identihub.co, and allowed me to have https://budini.xyz.
+This kind of automation allows us to do many fun stuff.
+Back in March, it was impossible to have custom domains on GitHub pages WITH SSL. Our develpers didn't have access to servers, so this helped us to have https://ura.design, https://identihub.co, and allowed me to have https://budini.xyz before I used to have GitLab
 
 But this isn't it's only use case.
-On Identihub, we have 4 main facing Identihub instances. 
+On Identihub, we have 4 main facing Identihub instances.
 There's [Demo](https://demo.identihub.co), which is our showcase, [Master](https://master.identihub.co), [Dev](https://dev.identihub.co), and [Test](https://test.identihub.co). The last three are automatically synced with this very same method! So, you can achieve realtime deployment with little to no hassle.
-
-
