@@ -27,6 +27,7 @@ grid_settings:
   grid_spacing: 10
 
 social_settings:
+  search_url: 'https://boris.budini.xyz/search'
   twitter_url: 'https://twitter.com/kominoshja'
   gitlab_url: 'https://git.budini.xyz/public'
   mastodon_url: 'https://fosstodon.org/@kominoshja'
