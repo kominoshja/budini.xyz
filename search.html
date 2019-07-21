@@ -4,24 +4,22 @@ title: Boris Budini
 description: 'DIY projects, system administration tips, broken code and more'
 featured_image: '/images/Sidebar/index.jpg'
 ---
+
+<div id="search-box">
+  <!-- SearchBox widget will appear here -->
+</div>
+
+<div id="hits">
+  <!-- Hits widget will appear here -->
+</div>
+
+<!-- algolia search -->
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js/dist/instantsearch-theme-algolia.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js"></script>
+
 <script src="search.js"></script>
 
-  <div id="search-searchbar"></div>
-
-  <div class="post-list" id="search-hits">
-    {% for post in site.posts %}
-      <div class="post-item">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h2>
-
-        <div class="post-snippet">{{ post.excerpt }}</div>
-      </div>
-    {% endfor %}
-  </div>
-  {% include algolia.html %}
+<!-- end of algolia search -->

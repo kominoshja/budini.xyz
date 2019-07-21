@@ -1,16 +1,25 @@
+const search = instantsearch({
+  appId: '1KGN2Y8AB1',
+  apiKey: '5dbcbb19bce6bdedc84d7b8c7efafd7e',
+  indexName: 'jekyll',
+  routing: true
+});
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-box',
+    placeholder: 'Search for albums'
+  })
+);
+
 search.addWidget(
   instantsearch.widgets.hits({
-    container: '#search-hits',
+    container: '#hits',
     templates: {
-      item: function(hit) {
-        return `
-          <div class="post-item">
-            <span class="post-meta">${hit.date}</span>
-            <h2><a class="post-link" href="{{ site.baseurl }}${hit.url}">${hit.title}</a></h2>
-            <div class="post-snippet">${hit.html}</div>
-          </div>
-        `;
-      }
+      empty: 'No results',
+      item: '<em>Hit {{objectID}}</em>: {{{_highlightResult.content.value}}}'
     }
   })
 );
+
+search.start();
