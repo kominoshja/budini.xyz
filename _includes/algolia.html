@@ -19,6 +19,7 @@ search.addWidget(
     poweredBy: true // This is required if you're on the free Community plan
   })
 );
+
 search.addWidget(
   instantsearch.widgets.hits({
     container: '#search-hits',
@@ -26,8 +27,8 @@ search.addWidget(
       item: function(hit) {
         return `
           <div class="post-item">
-            <span class="post-meta">${hit.date}</span>
             <h2><a class="post-link" href="{{ site.baseurl }}${hit.url}">${hit.title}</a></h2>
+            <span class="post-meta">${hit.date}</span>
             <div class="post-snippet">${hit.html}</div>
           </div>
         `;
@@ -35,7 +36,6 @@ search.addWidget(
     }
   })
 );
-
 // Starting the search
 search.start();
 </script>
