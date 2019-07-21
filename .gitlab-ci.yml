@@ -22,7 +22,7 @@ pages:
   - ALGOLIA_API_KEY='bd44fc55419463cd69eb8097450564a4' bundle exec jekyll algolia
   - bundle exec jekyll build -d public
   - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
-
+  - sed -i 's/href=\"https:\/\/boris.budini.xyz\/search\" target=\"_blank\"/href=\"https:\/\/boris.budini.xyz\/search\"/' */*.html
   #to be fixed
   - sed -i '0,/\/images\/Sidebar\/Tech\/router.jpg/{s/\/images\/Sidebar\/Tech\/router.jpg/\/images\/Sidebar\/index.jpg/}' public/index.html
   - sed -i '0,/\/images\/Sidebar\/Tech\/router.jpg/{s/\/images\/Sidebar\/Tech\/router.jpg/\/images\/Sidebar\/404.jpg/}' public/404.html
