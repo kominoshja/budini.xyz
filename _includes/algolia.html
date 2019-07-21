@@ -31,10 +31,10 @@ const hitTemplate = function(hit) {
 
   return `
     <div class="post-item">
-      <span class="post-meta">${date}</span>
       <h2><a class="post-link" href="${url}">${title}</a></h2>
       {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
+      <span class="post-meta">Written on ${date}</span>
     </div>
   `;
 }
@@ -62,8 +62,10 @@ search.start();
 
 <style>
 .ais-search-box {
-  max-width: 100%;
+  max-width: 95%;
   margin-bottom: 15px;
+  margin-top: 1%;
+  margin-left: 2.5%;
 }
 .post-item {
   margin-bottom: 30px;
