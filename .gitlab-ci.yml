@@ -3,7 +3,7 @@ variables:
 
 pages:
   stage: deploy
-  image: starefossen/ruby-node:latest
+  image: ruby:2.3
   script:
   - mkdir events projects tech thoughts
   - mv pages/events.html events/index.html
@@ -19,7 +19,6 @@ pages:
   - cp -R _projects/ _posts
   - cp -R _thoughts/ _posts
   - rm -rf pages blogposts
-  - npm install simple-jekyll-search
   - bundle install
   - bundle exec jekyll build -d public
   - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
