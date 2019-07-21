@@ -4,6 +4,7 @@ title: Boris Budini
 description: 'DIY projects, system administration tips, broken code and more'
 featured_image: '/images/Sidebar/index.jpg'
 ---
+<script src="search.js"></script>
 
   <div id="search-searchbar"></div>
 
@@ -24,21 +25,3 @@ featured_image: '/images/Sidebar/index.jpg'
     {% endfor %}
   </div>
   {% include algolia.html %}
-
-
-  search.addWidget(
-    instantsearch.widgets.hits({
-      container: '#search-hits',
-      templates: {
-        item: function(hit) {
-          return `
-            <div class="post-item">
-              <span class="post-meta">${hit.date}</span>
-              <h2><a class="post-link" href="{{ site.baseurl }}${hit.url}">${hit.title}</a></h2>
-              <div class="post-snippet">${hit.html}</div>
-            </div>
-          `;
-        }
-      }
-    })
-  );
