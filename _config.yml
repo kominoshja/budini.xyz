@@ -88,4 +88,5 @@ paginate_path: "/blog/page:num/"
 
 algolia:
   application_id: 1KGN2Y8AB1
-  index_name:     jekyll
+  index_name: jekyll
+  search_only_api_key: 5dbcbb19bce6bdedc84d7b8c7efafd7e

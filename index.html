@@ -4,7 +4,15 @@ title: Boris Budini
 description: 'DIY projects, system administration tips, broken code and more'
 featured_image: '/images/Sidebar/index.jpg'
 ---
+---
+layout: default
+---
 
+<div class="home">
+
+  {{ content }}
+
+  <h1 class="page-heading">Posts</h1>
 
   <div id="search-searchbar"></div>
 
@@ -26,6 +34,11 @@ featured_image: '/images/Sidebar/index.jpg'
   </div>
 
   {% include algolia.html %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+
+</div>
+
 
 <section class="blog single">
 
