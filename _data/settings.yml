@@ -22,12 +22,12 @@ menu_settings:
       url: '/events/'
     - title: 'Thoughts'
       url: '/thoughts/'
-
+    - title: 'Search'
+      url: '/search/'
 grid_settings:
   grid_spacing: 10
 
 social_settings:
-  searchengin_url: 'https://boris.budini.xyz/search'
   twitter_url: 'https://twitter.com/kominoshja'
   gitlab_url: 'https://git.budini.xyz/public'
   mastodon_url: 'https://fosstodon.org/@kominoshja'
