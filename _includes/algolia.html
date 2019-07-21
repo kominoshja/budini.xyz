@@ -16,7 +16,7 @@ const hitTemplate = function(hit) {
     date = moment.unix(hit.date).format('MMM D, YYYY');
   }
 
-  let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+  let url = `{{ site.baseurl }}${hit.url}`;
 
   const title = hit._highlightResult.title.value;
 
@@ -31,7 +31,7 @@ const hitTemplate = function(hit) {
 
   return `
     <div class="post-item">
-      <h2><a class="post-link" href="${url} - #undefined">${title}</a></h2>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
       {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
       <span class="post-meta">Written on ${date}</span>
