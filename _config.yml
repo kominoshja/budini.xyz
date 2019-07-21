@@ -82,5 +82,10 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
 paginate: 6
 paginate_path: "/blog/page:num/"
+
+algolia:
+  application_id: 1KGN2Y8AB1
+  index_name:     jekyll
