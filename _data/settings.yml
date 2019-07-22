@@ -22,7 +22,7 @@ menu_settings:
       url: '/events/'
     - title: 'Thoughts'
       url: '/thoughts/'
-      
+
 grid_settings:
   grid_spacing: 10
 
@@ -159,3 +159,4 @@ advanced_settings:
   custom_styles: ""
   header_js: ""
   footer_js: ""
+  ajax_loading: false
