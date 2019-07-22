@@ -85,25 +85,3 @@ plugins:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-ajax_loading: false
-algolia:
-  application_id: 1KGN2Y8AB1  
-  index_name: jekyll
-  search_only_api_key: 5dbcbb19bce6bdedc84d7b8c7efafd7e
-  files_to_exclude:
-    - _data/*
-    - _includes/*
-    - _layouts/*
-    - _pages/*
-    - _sass/*
-    - blogposts/*
-    - css/*
-    - js/*
-    - index.html
-    - 404.html
-    - search.html
-    - _posts/*
-    - events/*
-    - projects/*
-    - tech/*
-    - thoughts/*
