@@ -29,10 +29,9 @@ featured_image: '/images/Sidebar/search.jpg'
 
 	<script type="text/javascript">
 	$.ajax({
-	  url: "test.html",
+	  url: "search.html",
 	  context: document.body,
 	  success: function(){
-	    $(this).addClass("done");
 			search.addWidget(
 				instantsearch.widgets.searchBox({
 					container: '#search-searchbar',
