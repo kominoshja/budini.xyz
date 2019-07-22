@@ -1,4 +1,3 @@
-
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
   apiKey: '{{ site.algolia.search_only_api_key }}',
