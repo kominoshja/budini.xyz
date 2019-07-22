@@ -82,11 +82,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - searchyll
-
-elasticsearch:
-    url: https://5z6u4el85l:l47dtup1wz@jekyll-8367862639.eu-central-1.bonsaisearch.net:443
-    index_name: jekyll
 
 paginate: 6
 paginate_path: "/blog/page:num/"
