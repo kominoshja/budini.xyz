@@ -61,3 +61,5 @@ When you can't change the DNS records, ALBtelecom will know what site you're vis
 The HG531 V1 router is actually very nice, for 15-20 devices connected to it, and it rarely has failed for me. However there's no info regarding it online.
 
 So, I would recommend you use something else, but you know what's best for you
+
+<script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
