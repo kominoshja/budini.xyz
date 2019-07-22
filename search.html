@@ -5,44 +5,24 @@ description: 'Search for something'
 featured_image: '/images/Sidebar/search.jpg'
 ---
 
+<center><h2 style="margin-bottom: 1%;">Are you looking for something specific?</h2></center>
 
-<section class="intro">
+  <div id="search-searchbar"></div>
 
-	<div class="wrap">
+  <div class="post-list" id="search-hits">
+    {% for post in site.posts %}
+      <div class="post-item">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-		<h1>Are you looking for something specific?</h1>
-		<p class="hero__text">Here, allow me to help you!</p>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
 
-	</div>
-
-</section>
-
-<div id="search-searchbar"></div>
-
-<section class="single">
-
-	<div class="wrap">
-
-
-    <div class="post-list" id="search-hits">
-      {% for post in site.posts %}
-        <div class="post-item">
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h2>
-
-          <div class="post-snippet">{{ post.excerpt }}</div>
-        </div>
-      {% endfor %}
-    </div>
-
-	</div>
-
-</section>
-
-{% include algolia.html %}
+        <div class="post-snippet">{{ post.excerpt }}</div>
+      </div>
+    {% endfor %}
+  </div>
+  {% include algolia.html %}
