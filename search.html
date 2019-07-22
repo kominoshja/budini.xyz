@@ -5,12 +5,15 @@ description: 'Search for something'
 featured_image: '/images/Sidebar/search.jpg'
 ---
 
+{% include algolia.html %}
+
 <section class="intro">
 
 	<div class="wrap">
 
 		<h1>Are you looking for something specific?</h1>
 		<p class="hero__text">Here, allow me to help you!</p>
+    <div id="search-searchbar"></div>
 
 	</div>
 
@@ -20,7 +23,6 @@ featured_image: '/images/Sidebar/search.jpg'
 
 	<div class="wrap">
 
-    <div id="search-searchbar"></div>
 
     <div class="post-list" id="search-hits">
       {% for post in site.posts %}
@@ -38,7 +40,6 @@ featured_image: '/images/Sidebar/search.jpg'
         </div>
       {% endfor %}
     </div>
-    {% include algolia.html %}
 
 	</div>
 
