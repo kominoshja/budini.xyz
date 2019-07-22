@@ -24,7 +24,7 @@ pages:
   #to be fixed
   - sed -i '0,/\/images\/Sidebar\/Tech\/router.jpg/{s/\/images\/Sidebar\/Tech\/router.jpg/\/images\/Sidebar\/index.jpg/}' public/index.html
   - sed -i '0,/\/images\/Sidebar\/Tech\/router.jpg/{s/\/images\/Sidebar\/Tech\/router.jpg/\/images\/Sidebar\/404.jpg/}' public/404.html
-  - sed -i '0,/\/images\/Sidebar\/Tech\/router.jpg/{s/\/images\/Sidebar\/Tech\/router.jpg/\/images\/Sidebar\/search.jpg/}' public/search.html
+  #- sed -i '0,/\/images\/Sidebar\/Tech\/router.jpg/{s/\/images\/Sidebar\/Tech\/router.jpg/\/images\/Sidebar\/search.jpg/}' public/search.html
 
   artifacts:
     paths:

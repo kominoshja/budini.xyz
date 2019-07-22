@@ -22,8 +22,7 @@ menu_settings:
       url: '/events/'
     - title: 'Thoughts'
       url: '/thoughts/'
-    - title: 'Search'
-      url: 'https://boris.budini.xyz/search'
+      
 grid_settings:
   grid_spacing: 10
 
