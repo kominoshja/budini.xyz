@@ -3,6 +3,7 @@ title:  "The case against my router"
 subtitle: "ALBtelecom's HG531 v1"
 date: 2018-08-26 00:00:00
 featured_image: '/images/Sidebar/Tech/router.jpg'
+layout: post
 ---
 
 So recently I installed Pi-hole, and was too lazy to manually edit the DNS record in all of my devices (I have a lot of devices in my network)
