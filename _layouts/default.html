@@ -44,12 +44,12 @@
 
 	<!-- Styles -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/css/style.css?{{site.time | date: '%s%N'}}">
+	<link rel="stylesheet" href="/assets/css/style.css?{{site.time | date: '%s%N'}}">
 
 	<!-- Icons -->
-	<script defer src="/js/fontawesome/solid.js" crossorigin="anonymous"></script>
-	<script defer src="/js/fontawesome/brands.js" crossorigin="anonymous"></script>
-	<script defer src="/js/fontawesome/fontawesome.js" crossorigin="anonymous"></script>
+	<script defer src="/assets/js/fontawesome/solid.js?{{site.time | date: '%s%N'}}" crossorigin="anonymous"></script>
+	<script defer src="/assets/js/fontawesome/brands.js?{{site.time | date: '%s%N'}}" crossorigin="anonymous"></script>
+	<script defer src="/assets/js/fontawesome/fontawesome.js?{{site.time | date: '%s%N'}}" crossorigin="anonymous"></script>
 
 	{% if site.data.settings.advanced_settings.custom_styles %}
 	<!-- Custom Styles -->
@@ -95,8 +95,8 @@
 
 
 	<!-- Javascript Assets -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="/js/journal-min.js?{{site.time | date: '%s%N'}}"></script>
+	<script src="/assets/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
+	<script src="/assets/js/journal-min.js?{{site.time | date: '%s%N'}}"></script>
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
