@@ -2,7 +2,7 @@ variables:
   JEKYLL_ENV: production
 
 pages:
-  image: kominoshja/jekyll-page:v1.2
+  image: kominoshja/jekyll-page:v1.3
   script:
   - mkdir events projects tech thoughts
   - mv pages/events.html events/index.html
