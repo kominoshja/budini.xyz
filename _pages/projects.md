@@ -10,7 +10,7 @@ featured_image: /images/Sidebar/projects.jpg
 
 	<div class="wrap">
 
-		{% for post in site.projects %}
+		{% for post in site.categories.projects %}
 
 		<article class="blog-post">
 

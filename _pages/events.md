@@ -11,7 +11,7 @@ featured_image: /images/Sidebar/events.jpg
 
 	<div class="wrap">
 
-		{% for post in site.events %}
+		{% for post in site.categories.events %}
 
 		<article class="blog-post">
 
