@@ -2,7 +2,7 @@ variables:
   JEKYLL_ENV: production
 
 pages:
-  image: kominoshja/jekyll-page:v1.3
+  image: kominoshja/jekyll-page:v1.0
   script:
   - mkdir events projects tech thoughts
   - mv pages/events.html events/index.html
@@ -18,7 +18,6 @@ pages:
   - cp -R _projects/ _posts
   - cp -R _thoughts/ _posts
   - rm -rf pages blogposts
-  - bundle install
   - bundle exec jekyll build -d public
   - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
   #to be fixed
