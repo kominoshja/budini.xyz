@@ -27,7 +27,3 @@ featured_image: /images/Sidebar/thoughts.jpg
 				<p><a href="{{ post.url }}" class="button">Dive in</a>
 
 		{% endfor %}
-
-	</div>
-
-</section>
