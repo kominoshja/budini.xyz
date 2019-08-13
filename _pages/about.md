@@ -3,6 +3,7 @@ title: Hi there
 subtitle: Welcome to my mindscape.
 description: A quick introduction
 featured_image: /images/Sidebar/about.jpg
+layout: post
 ---
 
 ![](/images/About/trains.gif)

@@ -3,6 +3,7 @@ title: Events
 subtitle: Here's what I've been attending lately.
 description: Here's what I've been attending lately.
 featured_image: /images/Sidebar/events.jpg
+layout: default
 ---
 
 <section class="blog single">

@@ -3,6 +3,7 @@ title: Projects
 subtitle: What I've been breaking lately.
 description: What I've been breaking lately.
 featured_image: /images/Sidebar/projects.jpg
+layout: default
 ---
 
 <section class="blog single">

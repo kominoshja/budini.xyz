@@ -34,9 +34,9 @@
 			max-width: 70%;
 		}
 	}
-	
+
 	h1 {
-		
+
 		@include mq(tabletp) {
 			white-space: pre-line;
 		}
@@ -51,7 +51,7 @@
 .single {
 	margin-top: 0;
 	padding: 20px 0;
-	min-height: 100vh;
+	min-height: 100%;
 
 	@include mq(tabletp) {
 		padding: 40px 0;
@@ -213,7 +213,7 @@
 				padding: 20px;
 			}
 		}
-		
+
 		tr {
 
 			&:nth-child(2n) {
