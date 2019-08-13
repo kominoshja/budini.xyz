@@ -9,7 +9,7 @@ featured_image: /images/Sidebar/events.jpg
 
 	<div class="wrap">
 
-		{% for post in site.categories.events %}
+		{% for post in site.categories.tech %}
 
 		<article class="blog-post">
 
