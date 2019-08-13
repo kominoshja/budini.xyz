@@ -1,7 +1,7 @@
 basic_settings:
   site_title: Boris Budini
   site_tagline: Kominoshja's mindscape
-  favicon_image: /images/favicon.ico?{{site.time | date: '%s%N'}}
+  favicon_image: /images/favicon.ico
 
 header_settings:
   logo_image:
