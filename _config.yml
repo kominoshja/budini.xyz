@@ -10,7 +10,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /blog/:categories/:slug
+    permalink: /:categories/:slug
 
 defaults:
   -
