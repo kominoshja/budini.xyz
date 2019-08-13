@@ -1,7 +1,7 @@
 ---
 title:  "Speeding up GitLab CI"
 subtitle: "Saving time"
-date: 2018-08-27 00:00:00
+date: 2019-08-13 00:00:00
 featured_image: '/images/Sidebar/Tech/gitlab-ci.jpg'
 layout: post
 ---
@@ -49,6 +49,15 @@ docker push [Docker Hub username]/[Name of the image you'll create]:v[Version Nu
 
 Congrats! You just published a Docker image! Now it's time to update your GitLab CI config.
 
-Head over to `.gitlab-ci.yml` and add/change `image:` to `image: [Docker Hub username]/[Name of the image you'll create]:v[Version Number]`
+Head over to `.gitlab-ci.yml` and add/change
+
+```yaml
+image:
+```
+ to
+
+ ```yaml
+ image: [Docker Hub username]/[Name of the image you'll create]:v[Version Number]
+ ```
 
 In my case, many of my projects went from 2 minutes to 30 seconds or less.
