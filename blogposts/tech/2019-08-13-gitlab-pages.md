@@ -93,7 +93,7 @@ In there, paste the following content:
 ```bash
 while true;
 do
-rsync -Pav -e "ssh -i /root/.ssh/id_rsa" root@51.15.81.77:/mnt/gitlab_pages/ /var/opt/gitlab/gitlab-rails/shared/pages/ --delete
+rsync -Pav -e "ssh -i /root/.ssh/id_rsa" root@[server1]:/mnt/gitlab_pages/ /var/opt/gitlab/gitlab-rails/shared/pages/ --delete
 chown -R git:git /var/opt/gitlab/gitlab-rails/shared/pages/*;
 sleep 5;
 done
