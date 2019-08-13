@@ -9,7 +9,7 @@ featured_image: /images/Sidebar/tech.jpg
 
 			<div class="wrap">
 
-			{% for post in site.categories.tech %}
+			{% for post in paginator.posts %}
 
 				<article class="blog-post">
 
