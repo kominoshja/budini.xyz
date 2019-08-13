@@ -1,7 +1,7 @@
 ---
 title:  "Setting up GitLab Pages"
 subtitle: "Because GitLab rocks"
-date: "2019-08-13 00:00:00"
+date: "2019-08-13 01:00:00"
 featured_image: "/images/Sidebar/Tech/gitlab-pages.jpg"
 layout: post
 ---
