@@ -6,7 +6,9 @@ pages:
   script:
   - bundle exec jekyll build -d public
   - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
-
+  - gawk -i inplace '/Boris Budini/{count++;if(count==3){sub("Boris Budini","Events")}}1' public/events-posts.html
+  - sed -i 's/Kominoshja\x27s mindscape/Here\x27s what I\x27ve been attending lately.' public/events-posts.html
+  
   artifacts:
     paths:
     - public
