@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Projects
 subtitle: What I've been breaking lately.
 description: What I've been breaking lately.

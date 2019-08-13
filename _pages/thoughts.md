@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Thoughts
 subtitle: Here's what I've been thinking lately.
 description: Here's what I've been thinking lately.

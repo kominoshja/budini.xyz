@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Tech
 subtitle: Here's what I've been working on lately.
 description: Here's what I've been working on lately.
