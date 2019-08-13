@@ -1,6 +1,6 @@
 ---
 title:  "Automation between your server and GitHub"
-subtitle: "When you're to busy to git pull"
+subtitle: "When you're too busy to git pull"
 date: "2018-08-27 00:00:00"
 featured_image: "/images/Sidebar/Tech/server.jpg"
 layout: post
@@ -63,6 +63,7 @@ My apache site config file looks like this
 </VirtualHost>
 ```
 So on the appropriate repo on GitHub, i set a `JSON` webhook `On push events`, with the url `[URL]/script`
+
 ## Okay, but why?
 This kind of automation allows us to do many fun stuff.
 Back in March, it was impossible to have custom domains on GitHub pages WITH SSL. Our develpers didn't have access to servers, so this helped us to have https://ura.design, https://identihub.co, and allowed me to have https://budini.xyz.
