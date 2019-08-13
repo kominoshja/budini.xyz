@@ -5,51 +5,24 @@ description: Here's what I've been working on lately.
 featured_image: /images/Sidebar/tech.jpg
 ---
 
-		<section class="blog single">
+<section class="blog single">
 
-			<div class="wrap">
+	<div class="wrap">
 
-			{% for post in paginator.posts %}
+		{% for post in site.categories.tech %}
 
-				<article class="blog-post">
+		<article class="blog-post">
 
-					<div class="blog-post__header">
-						<h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-					</div>
-
-					{% if post.featured_image %}
-					<a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }}?{{site.time | date: '%s%N'}});"></a>
-					{% endif %}
-
-					<div class="blog-post__content">
-						<p>{{ post.excerpt }}</p>
-						<p class="blog-post__subtitle">Written on {{ post.date | date_to_long_string }}</p>
-						<p><a href="{{ post.url }}" class="button">Dive in</a>
-					</div>
-
-				</article>
-
-				{% endfor %}
-
+			<div class="blog-post__header">
+				<h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			</div>
 
-		</section>
-
-		{% if paginator.total_pages > 1 %}
-
-		<section class="pagination">
-
-			{% if paginator.previous_page %}
-			<div class="pagination__prev">
-				<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
-			</div>
-			{% endif %}
-			{% if paginator.next_page %}
-			<div class="pagination__next">
-				<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-			</div>
+			{% if post.featured_image %}
+			<a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }}?{{site.time | date: '%s%N'}});"></a>
 			{% endif %}
 
-		</section>
-
-		{% endif %}
+			<div class="blog-post__content">
+				<p>{{ post.excerpt }}</p>
+				<p class="blog-post__subtitle">Written on {{ post.date | date_to_long_string }}</p>
+				<p><a href="{{ post.url }}" class="button">Dive in</a>
+		{% endfor %}
