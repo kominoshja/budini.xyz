@@ -10,19 +10,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /blog/:slug
-  projects:
-    output: true
-    permalink: /projects/:slug
-  tech:
-    output: true
-    permalink: /tech/:slug
-  events:
-    output: true
-    permalink: /events/:slug
-  thoughts:
-    output: true
-    permalink: /thoughts/:slug
+    permalink: /:categories/:slug
 
 defaults:
   -

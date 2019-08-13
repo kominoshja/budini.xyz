@@ -4,6 +4,7 @@ subtitle: "Because GitLab rocks"
 date: "2019-08-13 01:00:00"
 featured_image: "/images/Sidebar/Tech/gitlab-pages.jpg"
 layout: post
+categories: [tech]
 ---
 
 Now it's no secret that I love GitLab. One of the reasons I love it so much is the level of control that you have over how GitLab pages are built. You can pretty much do everything you can thing of

@@ -9,15 +9,7 @@ pages:
   - mv pages/projects.html projects/index.html
   - mv pages/tech.html tech/index.html
   - mv pages/thoughts.html thoughts/index.html
-  - mv blogposts/events/ _events/
-  - mv blogposts/projects/ _projects
-  - mv blogposts/tech/ _tech
-  - mv blogposts/thoughts/ _thoughts
-  - cp -R _tech/* _posts
-  - cp -R _events/* _posts
-  - cp -R _projects/* _posts
-  - cp -R _thoughts/* _posts
-  - rm -rf pages blogposts
+  - rm -rf pages
   - bundle exec jekyll build -d public
   - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
 

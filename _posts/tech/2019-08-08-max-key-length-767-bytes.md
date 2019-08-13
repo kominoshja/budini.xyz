@@ -4,6 +4,7 @@ subtitle: "MySQL makes me pull my hairs out of my head"
 date: "2019-08-08 00:00:00"
 featured_image: "/images/Sidebar/Tech/database.jpg"
 layout: post
+categories: [tech]
 ---
 
 So the @infra team of Open Labs Hackerspace is migrating servers. While migrating I had to deal with one of the weirdest errors I had seen.

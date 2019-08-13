@@ -4,6 +4,7 @@ subtitle: "When you're to busy to git pull"
 date: "2018-08-27 00:00:00"
 featured_image: "/images/Sidebar/Tech/server.jpg"
 layout: post
+categories: [tech]
 ---
 
 A few months ago, I was asked to find a way of automating one of Ura's production servers, to automatically get the code from GitHub, compile it, and then serve it. We were using Jekyll, so it was pretty easy to be solved.. except for the automatic pull. I ended up using a php script + webhooks.

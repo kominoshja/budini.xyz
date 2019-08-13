@@ -4,6 +4,7 @@ subtitle: "Saving time"
 date: "2019-08-13 00:00:00"
 featured_image: "/images/Sidebar/Tech/gitlab-ci.jpg"
 layout: post
+categories: [tech]
 ---
 
 Over the past few months, over at Collective68 and on my own projects, I have used GitLab's CI
