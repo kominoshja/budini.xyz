@@ -1,8 +1,8 @@
 ---
 title:  "Speeding up GitLab CI"
 subtitle: "Saving time"
-date: 2019-08-13 00:00:00
-featured_image: '/images/Sidebar/Tech/gitlab-ci.jpg'
+date: "2019-08-13 00:00:00"
+featured_image: "/images/Sidebar/Tech/gitlab-ci.jpg"
 layout: post
 ---
 

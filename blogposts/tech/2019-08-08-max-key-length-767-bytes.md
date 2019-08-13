@@ -1,8 +1,8 @@
 ---
 title:  "ERROR: Specified key was too long; max key length is 767 bytes"
 subtitle: "MySQL makes me pull my hairs out of my head"
-date: 2019-08-08 00:00:00
-featured_image: '/images/Sidebar/Tech/database.jpg'
+date: "2019-08-08 00:00:00"
+featured_image: "/images/Sidebar/Tech/database.jpg"
 layout: post
 ---
 

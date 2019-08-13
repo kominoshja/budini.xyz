@@ -1,8 +1,8 @@
 ---
 title:  "Automation between your server and GitHub"
 subtitle: "When you're to busy to git pull"
-date: 2018-08-27 00:00:00
-featured_image: '/images/Sidebar/Tech/server.jpg'
+date: "2018-08-27 00:00:00"
+featured_image: "/images/Sidebar/Tech/server.jpg"
 layout: post
 ---
 
