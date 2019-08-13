@@ -27,8 +27,8 @@ grid_settings:
   grid_spacing: 10
 
 social_settings:
+  gitlab_url: 'https://git.budini.xyz/explore/groups'
   twitter_url: 'https://twitter.com/kominoshja'
-  gitlab_url: 'https://git.budini.xyz/public'
   mastodon_url: 'https://fosstodon.org/@kominoshja'
   github_url: 'https://github.com/kominoshja/'
   telegram-plane_url: 'https://t.me/kominoshja'
