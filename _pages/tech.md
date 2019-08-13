@@ -25,9 +25,6 @@ featured_image: /images/Sidebar/tech.jpg
 				<p>{{ post.excerpt }}</p>
 				<p class="blog-post__subtitle">Written on {{ post.date | date_to_long_string }}</p>
 				<p><a href="{{ post.url }}" class="button">Dive in</a>
-			</div>
-
-		</article>
 
 		{% endfor %}
 
