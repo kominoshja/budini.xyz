@@ -14,14 +14,14 @@ menu_settings:
       url: '/about'
 #    - title: 'Portfolio'
 #      url: '/portfolio/'
-    - title: 'Projects'
-      url: '/projects'
     - title: 'Tech'
-      url: '/tech'
+      url: '/tech-posts'
     - title: 'Events'
-      url: '/events'
+      url: '/events-posts'
+    - title: 'Projects'
+      url: '/projects-posts'
     - title: 'Thoughts'
-      url: '/thoughts'
+      url: '/thoughts-posts'
 
 grid_settings:
   grid_spacing: 10
