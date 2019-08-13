@@ -4,7 +4,7 @@ variables:
 pages:
   image: kominoshja/jekyll-page:v1.1
   script:
-  - mkdir events projects tech thoughts _posts
+  - mkdir events projects tech thoughts
   - mv pages/events.html events/index.html
   - mv pages/projects.html projects/index.html
   - mv pages/tech.html tech/index.html
