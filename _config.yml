@@ -47,6 +47,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-time-to-read
 
 paginate: 6
 paginate_path: "/page/:num/"

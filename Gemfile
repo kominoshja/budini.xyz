@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jemoji'
   gem 'jekyll-include-cache'
+  gem 'jekyll-time-to-read'
 end

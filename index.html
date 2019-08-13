@@ -24,6 +24,7 @@ featured_image: '/images/Sidebar/index.jpg'
 			<div class="blog-post__content">
 				<p>{{ post.excerpt }}</p>
 				<p class="blog-post__subtitle">Written on {{ post.date | date_to_long_string }}</p>
+				<p class="blog-post__subtitle">Read time: {{ post.content | reading_time_as_i }}</p>
 				<p><a href="{{ post.url }}" class="button">Dive in</a>
 			</div>
 
