@@ -48,7 +48,6 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="/css/font.css?{{site.time | date: '%s%N'}}" rel="stylesheet">'
   title_font: '"Merriweather", sans-serif'
   body_font: '"Muli", sans-serif'
   regular_weight: 400
