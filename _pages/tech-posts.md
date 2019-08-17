@@ -4,6 +4,7 @@ subtitle: Here's what I've been working on lately.
 description: Here's what I've been working on lately.
 featured_image: /images/Sidebar/tech.jpg
 layout: default
+permalink: /tech
 ---
 
 <section class="blog single">

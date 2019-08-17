@@ -15,13 +15,13 @@ menu_settings:
 #    - title: 'Portfolio'
 #      url: '/portfolio/'
     - title: 'Tech'
-      url: '/tech-posts'
+      url: '/tech'
     - title: 'Events'
-      url: '/events-posts'
+      url: '/events'
     - title: 'Projects'
-      url: '/projects-posts'
+      url: '/projects'
     - title: 'Thoughts'
-      url: '/thoughts-posts'
+      url: '/thoughts'
 
 grid_settings:
   grid_spacing: 10

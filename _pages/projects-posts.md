@@ -4,6 +4,7 @@ subtitle: What I've been breaking lately.
 description: What I've been breaking lately.
 featured_image: /images/Sidebar/projects.jpg
 layout: default
+permalink: /projects
 ---
 
 <section class="blog single">

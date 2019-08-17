@@ -4,6 +4,7 @@ subtitle: Here's what I've been thinking lately.
 description: Here's what I've been thinking lately.
 featured_image: /images/Sidebar/thoughts.jpg
 layout: default
+permalink: /thoughts
 ---
 
 <section class="blog single">

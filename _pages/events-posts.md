@@ -4,6 +4,7 @@ subtitle: Here's what I've been attending lately.
 description: Here's what I've been attending lately.
 featured_image: /images/Sidebar/events.jpg
 layout: default
+permalink: /events
 ---
 
 <section class="blog single">
