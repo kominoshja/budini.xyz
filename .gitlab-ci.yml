@@ -5,8 +5,7 @@ pages:
   image: kominoshja/jekyll-page:v1.2
   script:
   - bundle exec jekyll build -d public
-  - sed -i 's/Boris Budini – Boris Budini/Boris Budini/' public/index.html
-
+  
   artifacts:
     paths:
     - public
