@@ -11,17 +11,17 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'About me'
-      url: '/about'
+      url: '/about.html'
 #    - title: 'Portfolio'
 #      url: '/portfolio/'
     - title: 'Tech'
-      url: '/tech'
+      url: '/tech.html'
     - title: 'Events'
-      url: '/events'
+      url: '/events.html'
     - title: 'Projects'
-      url: '/projects'
+      url: '/projects.html'
     - title: 'Thoughts'
-      url: '/thoughts'
+      url: '/thoughts.html'
 
 grid_settings:
   grid_spacing: 10
