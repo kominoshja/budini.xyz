@@ -2,7 +2,7 @@ variables:
   JEKYLL_ENV: production
 
 pages:
-  image: kominoshja/jekyll-page:v1.98
+  image: kominoshja/jekyll-page:v1.7
   script:
   - bundle exec jekyll build -d public
 
