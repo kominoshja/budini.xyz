@@ -48,6 +48,9 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-time-to-read
-
+  - jekyll-minifier
+  - jekyll-gzip
+  - jekyll-email-protect
+  
 paginate: 6
 paginate_path: "/page/:num/"

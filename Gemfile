@@ -9,4 +9,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'jekyll-include-cache'
   gem 'jekyll-time-to-read'
+  gem 'jekyll-minifier'
+  gem 'jekyll-gzip'
+  gem 'jekyll-email-protect'
 end
